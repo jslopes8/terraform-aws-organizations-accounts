@@ -8,7 +8,7 @@ resource "aws_organizations_account" "account" {
     role_name   = lookup(var.create_account[count.index], "iam_role_name", "null")
     
     parent_id                   = lookup(var.create_account[count.index], "parent_id", "null")
-    iam_user_access_to_billing  = lookup(var.create_account[count.index], "access_billing", "null")
+    iam_user_access_to_billing  = lookup(var.create_account[count.index], "iam_user_access_to_billing", "null")
 
     #tags    = var.default_tags
     tags    = lookup(var.create_account[count.index], "default_tags", "null")
