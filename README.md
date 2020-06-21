@@ -74,6 +74,12 @@ module "create_account" {
 
 ```
 
+## Requirements
+| Name | Version |
+| ---- | ------- |
+| aws | ~> 2.35 |
+| terraform | ~> 0.12 |
+
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Variables Inputs
 | Name | Description | Required | Type | Default |
