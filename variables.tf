@@ -3,7 +3,7 @@ variable "create" {
     default = true
 }
 variable "create_account" {
-    type    = list(map(string))
+    type    = any
     default = []
 }   
 variable "default_tags" {
