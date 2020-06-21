@@ -2,7 +2,9 @@
 Provides a resource to create a member account in the current organization.
 
 ```
-WARNING: Deleting this Terraform resource will only remove an AWS account from an organization. Terraform will not close the account. The member account must be prepared to be a standalone account beforehand. See the AWS Organizations documentation for more information.
+WARNING: Deleting this Terraform resource will only remove an AWS account from an organization.
+Terraform will not close the account. The member account must be prepared to be a standalone
+account beforehand. See the AWS Organizations documentation for more information.
 ```
 
 The `create_account` block has the following attributes as required:
