@@ -1,5 +1,3 @@
-/* Created by Jonatas Lopes (jslopes@uoldiveo.com) */
-
 
 resource "aws_organizations_account" "main" {
     count   = var.create ? length(var.create_account) : 0
