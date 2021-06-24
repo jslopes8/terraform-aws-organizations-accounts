@@ -12,7 +12,7 @@ Examplo of the use: creating an aws account as member of the a AWS Organizations
 
 ```hcl
 module "create_account" {
-    source = "git@github.com:jslopes8/terraform-aws-organizations-accounts.git?ref=v2.00"
+    source = "git@github.com:jslopes8/terraform-aws-organizations-accounts.git?ref=v2.0.1"
 
     account_name                    = "Mobile App PoC" 
     account_email                   = "root-mobile-app-poc@example.com"
