@@ -15,7 +15,7 @@ variable "assume_role_name" {
     type    = string
     default = "OrganizationAccountAccessRole"
 }
-variable "organizational_unit" {
+variable "organizational_unit_name" {
     type    = string
     default = null
 }
