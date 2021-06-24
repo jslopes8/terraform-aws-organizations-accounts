@@ -7,18 +7,6 @@ Terraform will not close the account. The member account must be prepared to be 
 account beforehand. See the AWS Organizations documentation for more information.
 ```
 
-The `create_account` block has the following attributes as required:
-
-- `account_name`: the name of the new aws account that will be created.
-- `account_email`: the account email of the new aws account.
-- `assume_role_name`: the name of an IAM role that Organizations automatically preconfigures in the new member account.
-- `organizational_unit`: parent Organizational Unit ID or Root ID for the account. Defaults to the Organization default Root ID.
-- `enable_user_access_to_billing`: enables IAM users to access account billing information if they have the required permissions.
-- `default_tags`: Key-value map of resource tags.
-- `sso_permission_set_name`:
-- `sso_group_name`:
-
-
 ## Usange
 Examplo of the use: creating an aws account as member of the a AWS Organizations
 
